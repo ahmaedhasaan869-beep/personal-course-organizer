@@ -78,7 +78,7 @@ h2 {
     color: #2c3e50;
 }
 
-/* ===== TABLE (مظبوط للكمبيوتر) ===== */
+/* ===== TABLE ===== */
 table {
     width: 80%;
     margin: 20px auto;
@@ -156,32 +156,23 @@ footer {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
 
-    /* Navbar */
+    /* Navbar زي الكمبيوتر */
     nav ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     nav ul li {
-        width: 90%;
-        margin: 5px 0;
+        margin: 5px;
     }
 
     nav ul li a {
-        display: block;
-        width: 100%;
-        text-align: center;
-        background: #3d566e;
-        padding: 12px;
-        border-radius: 5px;
+        padding: 6px 8px;
+        font-size: 12px;
     }
 
-    nav ul li a:hover {
-        background: #1abc9c;
-    }
-
-    /* Table للموبايل بس */
+    /* Table للموبايل */
     table {
         display: block;
         width: 100%;
